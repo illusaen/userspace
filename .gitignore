@@ -14,3 +14,6 @@
 compile_commands.json
 .clangd/
 .cache/
+
+.direnv
+.pre-commit-config.yaml

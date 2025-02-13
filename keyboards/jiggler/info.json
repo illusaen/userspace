@@ -1,0 +1,34 @@
+{
+    "manufacturer": "Microsoft Wired Keyboard",
+    "keyboard_name": "Microsoft Wired Keyboard",
+    "maintainer": "Wendy Chen",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": true,
+        "extrakey":  false,
+        "mousekey": true,
+        "nkro": true
+    },
+    "debounce": 0,
+    "matrix_pins": {
+        "cols": ["D7"],
+        "rows": ["B5"]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0001",
+        "vid": "0x0001"
+    },
+    "layouts": {
+        "LAYOUT_ortho_1x1": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0}
+            ]
+        }
+    }
+}
