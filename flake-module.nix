@@ -28,6 +28,7 @@ _: {
         via
         vial
         qmk
+        python312Packages.appdirs
       ];
       buildInputs = config.pre-commit.settings.enabledPackages;
     };
